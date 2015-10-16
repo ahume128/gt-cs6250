@@ -42,10 +42,10 @@ def main(queue):
     sflow_event.set_max_events(10)
     sflow_event.set_timeout(60)
     
-    groups = {'external':['0.0.0.0/0']}
+    groups = {'external':['0.0.0.0/0'], 'internal':['10.0.0.0/8']}
     flows = {'keys':'ipsource,ipdestination','value':'frames'}
     threshold = {'metric':'ddos','value':10}
-    message = {'event_type':'ddos', 'message_type':'state', 'message_value':'ddos-attacker', \
+    message = {'event_type':'ddos', 'message_type':'state', 'message_value':'denied', \
                'flow':{'dstip': None, 'protocol': None, 'srcmac': None, 'tos': None, 'vlan_pcp': None, 'dstmac': None, \
                'inport': None, 'ethtype': None, 'srcip': '10.0.0.1', 'dstport': None, 'srcport': None, 'vlan_id': None}}
     

@@ -39,9 +39,9 @@ from pyretic.examples.pyretic_switch import ActLikeSwitch
 from csv import DictReader
 from collections import namedtuple
 import os
-
+DEBUG=True
 policy_file = "%s/pyretic/pyretic/examples/firewall-policies.csv" % os.environ[ 'HOME' ]
-Policy = namedtuple('Policy', ('mac_0', 'mac_1'))
+Policy = namedtuple('Policy', ('dl_src', 'dl_dst'))
 
 def main():
     # Read in the policies from the firewall-policies.csv file
@@ -54,18 +54,11 @@ def main():
         return policies
 
     policies = read_policies(policy_file)
-
-    # start with a policy that doesn't match any packets
-    not_allowed = none
-
-    # TODO and add traffic that isn't allowed
-    # Note: this uses the same policy named tuple from the POX
-    # firewall code. Please refer there for further info. HINT - You could use '|' in place of  '+' as well.
-    for policy in policies.itervalues():
-        not_allowed = not_allowed + ( <traffic going in one direction> ) + ( <traffic going in the other direction> )
-
-    # TODO express allowed traffic in terms of not_allowed - hint use '~'
-    allowed = <...>
+    print policies 
+    allowed = none
+    #for policy in policies.itervalues():
+    #       allowed = allowed + ( ~match(srcmac=policy.dl_src, dstmac=policy.dl_dst ) ) + ( ~match(srcmac=policy.dl_dst, dstmac=policy.dl_src ) )
+   
 
     # and only send allowed traffic to the mac learning (act_like_switch) logic
     return allowed >> ActLikeSwitch()

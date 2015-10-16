@@ -40,16 +40,12 @@ class Firewall (EventMixin):
     def _handle_ConnectionUp (self, event):
         policies = self.read_policies(policyFile)
         for policy in policies.itervalues():
-            # TODO: implement the code to add a rule to block the flow
-            # between the source and destination specified in each policy
-
-            # Note: The policy data structure has two fields which you can
-            # access to turn the policy into a rule. policy.dl_src will
-            # give you the source mac address and policy.dl_dst will give
-            # you the destination mac address
-
-            # Note: Set the priority for your rule to 20 so that it
-            # doesn't conflict with the learning bridge setup
+            fm = of.ofp_flow_mod()
+            fm.priority = 20
+            fm.match.dl_src = policy.dl_src
+            fm.match.dl_dst = policy.dl_dst
+            fm.actions.append(of.ofp_action_output(port = of.OFPP_NONE))
+            event.connection.send(fm)
             pass
 
         log.debug("Firewall rules installed on %s", dpidToStr(event.dpid))

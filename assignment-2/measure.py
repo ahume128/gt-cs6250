@@ -88,26 +88,23 @@ def get_txbytes(iface):
                         (iface, lines))
     return float(line.split()[9])
 
-def get_rates(iface,nsamples=1,period=30,
-           wait=10):
+def get_rates(iface, nsamples=1, period=30,
+              wait=10):
     """Returns rate in Mbps"""
     # Returning nsamples requires one extra to start the timer.                                                                                                                 
     nsamples += 1
     last_time = 0
     last_txbytes1 = 0
     last_txbytes2 = 0
-    last_txbytes3 = 0
     ret = []
     sleep(wait)
     iface1 = 's1-eth1'
     iface2 = 's2-eth1'
-    iface3 = 's3-eth1'
     while nsamples:
         nsamples -= 1
 
         txbytes1 = get_txbytes(iface1)
         txbytes2 = get_txbytes(iface2)
-        txbytes3 = get_txbytes(iface3)
     
         now = time()
         elapsed = now - last_time
@@ -116,15 +113,12 @@ def get_rates(iface,nsamples=1,period=30,
 
         rate1 = (txbytes1 - last_txbytes1) * 8.0 / 1e6 / elapsed
         rate2 = (txbytes2 - last_txbytes2) * 8.0 / 1e6 / elapsed
-        rate3 = (txbytes3 - last_txbytes3) * 8.0 / 1e6 / elapsed
         if last_txbytes1 != 0:
             ret.append(rate1)
             ret.append(rate2)
-	    ret.append(rate3)
-            ret.append(rate1+rate2+rate3)
+            ret.append(rate1+rate2)
         last_txbytes1 = txbytes1
         last_txbytes2 = txbytes2
-        last_txbytes3 = txbytes3
         sys.stdout.flush()
         sleep(period)
     return ret
@@ -143,7 +137,7 @@ def run_topology_experiment(net):
     # Get receiver and clients
     recvr = net.getNodeByName('receiver')
     sender = net.getNodeByName('sender')
-  
+
     s1 = net.getNodeByName('s1')
 
     # Start the receiver
@@ -156,6 +150,7 @@ def run_topology_experiment(net):
     sender.sendCmd('iperf -c %s -p %s -t %d -i 1 -yc > %s/iperf_%s.txt' %
 	    (recvr.IP(), 5001, seconds, args.dir, recvr))
 
+    # Turn off and turn on links
     rates = get_rates(iface='s1-eth1')
     print rates
 
@@ -212,54 +207,3 @@ if __name__ == '__main__':
     check_prereqs()
     main()
 
-#!/usr/bin/python
-
-"Networking Assignment 2"
-
-from mininet.topo import Topo
-from mininet.net import Mininet
-from mininet.log import lg, output
-from mininet.node import CPULimitedHost
-from mininet.link import TCLink
-from mininet.util import irange, custom, quietRun, dumpNetConnections
-from mininet.cli import CLI
-
-from time import sleep, time
-from multiprocessing import Process
-from subprocess import Popen
-import argparse
-
-import sys
-import os
-from util.monitor import monitor_devs_ng
-
-from mntopo import MNTopo
-
-parser = argparse.ArgumentParser(description="Topology bandwith and TCP tests")
-
-parser.add_argument('--dir', '-d',
-                    help="Directory to store outputs",
-                    default="results")
-
-parser.add_argument('--cli', '-c',
-                    action='store_true',
-                    help='Run CLI for topology debugging purposes')
-
-parser.add_argument('--time', '-t',
-                    dest="time",
-                    type=int,
-                    help="Duration of the experiment.",
-                    default=60)
-
-parser.add_argument('--buffer', '-s',
-                    dest="size",
-                    type=int,
-                    help="Size of buffer.")
-
-# Expt parameters
-args = parser.parse_args()
-
-if not os.path.exists(args.dir):
-    os.makedirs(args.dir)
-
-lg.setLogLevel('info')

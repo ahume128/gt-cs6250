@@ -88,12 +88,12 @@ class LearningSwitch(DynamicPolicy):
     def learn_route(self, pkt):
         """  This function adds new routes into the fowarding table. """
 
-        # TODO - create a new entry in the fowarding table.
-        # Adding a new route should be
-        #    self.fwd_table['s1'][mac_addr] = port
-        # You must extract the correct pieces from the packet to populate
-        # the forwarding table. 
-
+        #mac_addr = pkt['srcmac']
+        #switch = pkt['switch']
+        #port = pkt['inport']
+        print "first new packet: "
+        print pkt
+        #self.fwd_table[str(switch)][mac_addr] = port
 
         # print out the switch tables:
         self.print_switch_tables()
@@ -102,22 +102,22 @@ class LearningSwitch(DynamicPolicy):
         self.push_rules()
         pass
 
-
-
-
     def push_rules(self):
         new_policy = None
         not_flood_pkts = None
         
         for entry in self.fwd_table.keys():
+            print "ENTRY: %s" % str( entry )
             for fwd_rule in self.fwd_table[entry].keys():
+                print "FWD_RULE: %s" % str( fwd_rule ) 
                 if new_policy == None:
                     new_policy = (match(switch=int(entry), dstmac=fwd_rule) >> 
                                   fwd(self.fwd_table[entry][fwd_rule]))
+                    print "new_policy: %s" % new_policy
                 else:
                     new_policy += (match(switch=int(entry), dstmac=fwd_rule) >> 
                                    fwd(self.fwd_table[entry][fwd_rule]))
-                
+                    print "new_policy+: %s" % new_policy
                 if not_flood_pkts == None:
                     not_flood_pkts = (match(switch=int(entry), dstmac=fwd_rule))
                 else:
@@ -132,7 +132,8 @@ class LearningSwitch(DynamicPolicy):
         # The following line can be uncommented to see your policy being
         # built up, say during a flood period. When submitting your completed
         # code, be sure to comment it out!
-#        print self.policy
+        print "POLICY:" 
+        print self.policy
 
 
 def main():

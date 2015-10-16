@@ -22,7 +22,7 @@ from ..globals import *
 
 HOST = 'localhost'
 PORT = 8008
-
+DEBUG == True
 class DDoSPolicy(BasePolicy):
     
     def __init__(self, fsm):
@@ -33,6 +33,10 @@ class DDoSPolicy(BasePolicy):
     
     def action(self):
         if self.fsm.trigger.value == 0:
+
+            ddos_flows = self.fsm.get_policy('denied')
+            p1 = if_(ddos_flows,drop,self.allow_policy())
+
             # TODO- set the policy for this application
             #
             # To set the policy for this application, implement the

@@ -60,7 +60,7 @@ class ActLikeSwitch(DynamicPolicy):
                            self.forward)  # hint use 'match', '&', 'if_', and 'fwd' 
         # Update the policy
         self.policy = self.forward + self.query # hint you've already written this
-        print self.policy 
+        #print self.policy 
 
     
 def main():
