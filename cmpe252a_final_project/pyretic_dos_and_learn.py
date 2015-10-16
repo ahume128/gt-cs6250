@@ -20,6 +20,7 @@ class MonitorSwitch(DynamicPolicy):
     def check_for_dos_attack(self, bkt):
         threshold = 50 
         for item in bkt:
+            #print item, prev_count[item], bkt[item], bkt[item] - prev_count[item]
             if (item not in prev_count):
                 prev_count[item] = 0
 
@@ -34,6 +35,7 @@ class MonitorSwitch(DynamicPolicy):
     def learn_from_a_packet(self, pkt):
         self.forward = if_(match(dstmac=pkt['srcmac'],switch=pkt['switch']), fwd(pkt['inport']),self.forward)  
         self.policy = self.forward + self.query + self.query2
+        #print self.policy #figure out how to print this better
 
 def main():
     return MonitorSwitch()
