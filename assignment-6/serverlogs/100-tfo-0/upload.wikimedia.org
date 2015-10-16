@@ -1,0 +1,144 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org  with delay  0.0 s
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+trying hash: 8e0f5aaa60b79274c4e9f95641be9b95
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+trying hash: b16185027918c39917b3694a50a74243
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+found page in dictionary
+mime: image/jpeg
+encoding:  
+/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+trying hash: 15f763f708f41ef4307dd49ab8444b5d
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+trying hash: 3991486575fb338e86763c79ebe5d49f
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif
+found page in dictionary
+mime: image/gif
+encoding:  
+/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif
+10.0.0.85 - - [07/Nov/2014 08:33:32] "GET /wikipedia/commons/2/23/Icons-mini-file_acrobat.gif HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/en/b/bc/Wiki.png
+10.0.0.85 - - [07/Nov/2014 08:33:33] "GET /wikipedia/en/b/bc/Wiki.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/4/42/Monobook-bullet-ga.png
+10.0.0.85 - - [07/Nov/2014 08:33:34] "GET /wikipedia/commons/4/42/Monobook-bullet-ga.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+/wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png
+trying hash: 8e0f5aaa60b79274c4e9f95641be9b95
+10.0.0.85 - - [07/Nov/2014 08:34:35] "GET /wikipedia/commons/thumb/a/a2/Tcp_state_diagram_fixed.svg/250px-Tcp_state_diagram_fixed.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+/wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png
+trying hash: b16185027918c39917b3694a50a74243
+10.0.0.85 - - [07/Nov/2014 08:34:35] "GET /wikipedia/commons/thumb/5/55/TCP_CLOSE.svg/260px-TCP_CLOSE.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png
+10.0.0.85 - - [07/Nov/2014 08:34:35] "GET /wikipedia/commons/thumb/d/db/Tcp.svg/250px-Tcp.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png
+10.0.0.85 - - [07/Nov/2014 08:34:35] "GET /wikipedia/commons/thumb/c/ca/Bus_icon.svg/32px-Bus_icon.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+found page in dictionary
+mime: image/jpeg
+encoding:  
+/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+/wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg
+trying hash: 15f763f708f41ef4307dd49ab8444b5d
+10.0.0.85 - - [07/Nov/2014 08:34:36] "GET /wikipedia/commons/thumb/d/d2/Internet_map_1024.jpg/28px-Internet_map_1024.jpg HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+/wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png
+trying hash: 3991486575fb338e86763c79ebe5d49f
+10.0.0.85 - - [07/Nov/2014 08:34:36] "GET /wikipedia/commons/thumb/c/c1/Computer-aj_aj_ashton_01.svg/28px-Computer-aj_aj_ashton_01.svg.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif
+found page in dictionary
+mime: image/gif
+encoding:  
+/wikipedia/commons/2/23/Icons-mini-file_acrobat.gif
+10.0.0.85 - - [07/Nov/2014 08:34:40] "GET /wikipedia/commons/2/23/Icons-mini-file_acrobat.gif HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/en/b/bc/Wiki.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/en/b/bc/Wiki.png
+10.0.0.85 - - [07/Nov/2014 08:34:40] "GET /wikipedia/en/b/bc/Wiki.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x22f39f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/upload.wikimedia.org/wikipedia/commons/4/42/Monobook-bullet-ga.png
+found page in dictionary
+mime: image/png
+encoding:  
+/wikipedia/commons/4/42/Monobook-bullet-ga.png
+10.0.0.85 - - [07/Nov/2014 08:34:40] "GET /wikipedia/commons/4/42/Monobook-bullet-ga.png HTTP/1.1" 200 -
+Killed

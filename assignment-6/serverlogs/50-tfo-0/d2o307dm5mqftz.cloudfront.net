@@ -1,0 +1,20 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/d2o307dm5mqftz.cloudfront.net  with delay  0.0 s
+<socket._socketobject object at 0x2229a60>
+/home/mininet/gt-cs6250/assignment-6/Paper/d2o307dm5mqftz.cloudfront.net/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+found page in dictionary
+mime: image/jpeg
+encoding:  
+/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+trying hash: b59e9b5bd0f8a558979d7baf56f93bb3
+10.0.0.85 - - [07/Nov/2014 08:27:06] "GET /1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg HTTP/1.1" 200 -
+<socket._socketobject object at 0x2229a60>
+/home/mininet/gt-cs6250/assignment-6/Paper/d2o307dm5mqftz.cloudfront.net/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+found page in dictionary
+mime: image/jpeg
+encoding:  
+/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+/1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg
+trying hash: b59e9b5bd0f8a558979d7baf56f93bb3
+10.0.0.85 - - [07/Nov/2014 08:27:29] "GET /1505855001/1341953738551/9379_AIV_ChallengerATest_Static_A_300x250_v2.jpg HTTP/1.1" 200 -
+Killed

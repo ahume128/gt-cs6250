@@ -1,0 +1,274 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org  with delay  0.0 s
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/css
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*
+trying hash: 6993266b8c2b4807503ee336d2f23167
+10.0.0.85 - - [07/Nov/2014 08:27:15] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/css
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+trying hash: 6277ee2d4800bd7803de6085348ef0ff
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*
+trying hash: 675a63e5da8dd5d86fb2978dafb16a54
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/geoiplookup
+found page in dictionary
+mime: text/javascript
+encoding:  
+/geoiplookup
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /geoiplookup HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/common/images/magnify-clip.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/common/images/magnify-clip.png
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /static-1.21wmf11/skins/common/images/magnify-clip.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/vector/images/search-ltr.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/vector/images/search-ltr.png?303-4
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /static-1.21wmf11/skins/vector/images/search-ltr.png?303-4 HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/images/wikimedia-button.png
+found page in dictionary
+mime: image/png
+encoding:  
+/images/wikimedia-button.png
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /images/wikimedia-button.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+trying hash: 3b62335aba2d7c4c2ee956153b4bf390
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*
+trying hash: 2c555619ecc0b83f50e274d4e2fba3fa
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*
+trying hash: 52c1765583d920b9737bc78e05e5dc6f
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z
+trying hash: da9fa19e383eef5115dbc9e69f3170e0
+10.0.0.85 - - [07/Nov/2014 08:27:16] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&*
+trying hash: 23ca766220519ca18b0aad0a8726268a
+10.0.0.85 - - [07/Nov/2014 08:27:17] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&*
+trying hash: 18b2fe99ed1896c9053c0a3b2cf7abd6
+10.0.0.85 - - [07/Nov/2014 08:27:18] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&*
+trying hash: 8f5b44bce5483badfab7af288cf1b701
+10.0.0.85 - - [07/Nov/2014 08:27:19] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&*
+trying hash: 23f59dd9a65eb0e75c39645421df846d
+10.0.0.85 - - [07/Nov/2014 08:27:19] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&*
+trying hash: 73e31cfd16e3d5d4cfb7eabf86588d3f
+10.0.0.85 - - [07/Nov/2014 08:27:19] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/css
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&*
+trying hash: 6993266b8c2b4807503ee336d2f23167
+10.0.0.85 - - [07/Nov/2014 08:27:32] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.wikihiero%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmw.PopUpMediaTransform%7Cskins.vector&only=styles&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/css
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&*
+trying hash: 6277ee2d4800bd7803de6085348ef0ff
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&*
+trying hash: 675a63e5da8dd5d86fb2978dafb16a54
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/geoiplookup
+found page in dictionary
+mime: text/javascript
+encoding:  
+/geoiplookup
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /geoiplookup HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/common/images/magnify-clip.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/common/images/magnify-clip.png
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /static-1.21wmf11/skins/common/images/magnify-clip.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/vector/images/search-ltr.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/vector/images/search-ltr.png?303-4
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /static-1.21wmf11/skins/vector/images/search-ltr.png?303-4 HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/images/wikimedia-button.png
+found page in dictionary
+mime: image/png
+encoding:  
+/images/wikimedia-button.png
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /images/wikimedia-button.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+found page in dictionary
+mime: image/png
+encoding:  
+/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+/static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png
+trying hash: 3b62335aba2d7c4c2ee956153b4bf390
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /static-1.21wmf11/skins/common/images/poweredby_mediawiki_88x31.png HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&*
+trying hash: 2c555619ecc0b83f50e274d4e2fba3fa
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=skins.vector&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&*
+trying hash: 52c1765583d920b9737bc78e05e5dc6f
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=site&only=scripts&skin=vector&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z
+trying hash: da9fa19e383eef5115dbc9e69f3170e0
+10.0.0.85 - - [07/Nov/2014 08:27:33] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery%2Cmediawiki%2CSpinner%7Cjquery.triggerQueueCallback%2CloadingSpinner%2CmwEmbedUtil%7Cmw.MwEmbedSupport&only=scripts&skin=vector&version=20130312T165208Z HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&*
+trying hash: 23ca766220519ca18b0aad0a8726268a
+10.0.0.85 - - [07/Nov/2014 08:27:34] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.centralNotice.bannerController%7Cext.wikimediaShopLink.core%7Cjquery.client%2Ccookie%2CmwExtension%7Cmediawiki.cldr%2CjqueryMsg%2Clanguage%2Cnotify%2Cutil%7Cmediawiki.language.data%2Cinit%7Cmediawiki.legacy.ajax%2Cwikibits%7Cmediawiki.libs.pluralruleparser%7Cmediawiki.page.startup%7Cwikibase.client.init&skin=vector&version=20130313T014549Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&*
+trying hash: 18b2fe99ed1896c9053c0a3b2cf7abd6
+10.0.0.85 - - [07/Nov/2014 08:27:34] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.footerCleanup&skin=vector&version=20130312T022901Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&*
+trying hash: 8f5b44bce5483badfab7af288cf1b701
+10.0.0.85 - - [07/Nov/2014 08:27:35] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.Experiments.lib%7Cext.UserBuckets%2CeventLogging%2CmarkAsHelpful%2CpostEdit%7Cext.articleFeedbackv5.startup%7Cext.gadget.DRN-wizard%2CReferenceTooltips%2Ccharinsert%2Cteahouse%7Cext.gettingstarted.openTask%7Cjquery.articleFeedbackv5.verify%7Cjquery.autoEllipsis%2CcheckboxShiftClick%2CclickTracking%2CdelayedBind%2Chidpi%2ChighlightText%2Cjson%2CmakeCollapsible%2Cmw-jump%2Cplaceholder%2Csuggestions%2CtabIndex%7Cmediawiki.Title%2Capi%2Chidpi%2CsearchSuggest%2Cuser%7Cmediawiki.action.view.postEdit%7Cmediawiki.page.ready%7Cmobile.desktop%7Cmw.MwEmbedSupport.style%7Cmw.PopUpMediaTransform%7Cschema.GettingStarted&skin=vector&version=20130312T022846Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&*
+trying hash: 23f59dd9a65eb0e75c39645421df846d
+10.0.0.85 - - [07/Nov/2014 08:27:36] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=ext.vector.collapsibleNav%2CcollapsibleTabs%2CeditWarning%7Cjquery.collapsibleTabs&skin=vector&version=20130312T022916Z&* HTTP/1.1" 200 -
+<socket._socketobject object at 0x28369f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/bits.wikimedia.org/en.wikipedia.org/load.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&*
+/en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&*
+trying hash: 73e31cfd16e3d5d4cfb7eabf86588d3f
+10.0.0.85 - - [07/Nov/2014 08:27:36] "GET /en.wikipedia.org/load.php?debug=false&lang=en&modules=jquery.ui.button%2Ccore%2Cdialog%2Cdraggable%2Cmouse%2Cposition%2Cresizable%2Cwidget&skin=vector&version=20130304T183324Z&* HTTP/1.1" 200 -
+Killed

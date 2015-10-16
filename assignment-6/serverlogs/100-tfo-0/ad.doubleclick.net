@@ -1,0 +1,20 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/ad.doubleclick.net  with delay  0.0 s
+<socket._socketobject object at 0x16659f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/ad.doubleclick.net/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW
+found page in dictionary
+mime: application/x-javascript
+encoding:  
+/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW?
+/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW
+trying hash: f8c8c40c36c10481bc5475d418f4e7b7
+10.0.0.85 - - [07/Nov/2014 08:32:53] "GET /adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW? HTTP/1.1" 200 -
+<socket._socketobject object at 0x16659f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/ad.doubleclick.net/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW
+found page in dictionary
+mime: application/x-javascript
+encoding:  
+/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW?
+/adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW
+trying hash: f8c8c40c36c10481bc5475d418f4e7b7
+10.0.0.85 - - [07/Nov/2014 08:33:48] "GET /adj/amzn.us.gw.atf;sz=300x250;bn=507846;u=df4eea4db63a4762a18a47c7f8563976;s=i0;s=i1;s=i2;s=i3;s=i4;s=i6;s=i7;s=i8;s=i9;s=m1;s=m4;s=u4;s=u14;s=u12;s=u2;z=3;s=3072;s=32;tile=1;ord=18R9MPD17DBJJ2TFGRZW? HTTP/1.1" 200 -
+Killed

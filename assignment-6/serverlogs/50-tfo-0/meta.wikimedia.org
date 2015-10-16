@@ -1,0 +1,18 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/meta.wikimedia.org  with delay  0.0 s
+<socket._socketobject object at 0x10a19f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/meta.wikimedia.org/wiki/Special:BannerRandom
+/wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&slot=14
+/wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&slot=14
+trying hash: 1610d606b9873e1bbae57064e61377c3
+10.0.0.85 - - [07/Nov/2014 08:27:18] code 404, message file not found
+10.0.0.85 - - [07/Nov/2014 08:27:18] "GET /wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&slot=14 HTTP/1.1" 404 -
+10.0.0.85 - - [07/Nov/2014 08:27:18] "GET /wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=0&country=US&slot=14 HTTP/1.1" 200 -
+<socket._socketobject object at 0x10a19f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/meta.wikimedia.org/wiki/Special:BannerRandom
+/wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&slot=29
+/wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&slot=29
+trying hash: c95155291e08796117fce04b959c3fc9
+10.0.0.85 - - [07/Nov/2014 08:27:35] code 404, message file not found
+10.0.0.85 - - [07/Nov/2014 08:27:35] "GET /wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&slot=29 HTTP/1.1" 404 -
+10.0.0.85 - - [07/Nov/2014 08:27:35] "GET /wiki/Special:BannerRandom?userlang=en&sitename=Wikipedia&project=wikipedia&anonymous=true&bucket=1&country=US&slot=29 HTTP/1.1" 200 -
+Killed

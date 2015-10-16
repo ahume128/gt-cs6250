@@ -1,0 +1,34 @@
+HTTP Running : 8000  from  /home/mininet/gt-cs6250/assignment-6/Paper/en.wikipedia.org  with delay  0.0 s
+<socket._socketobject object at 0x1ff89f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/en.wikipedia.org/wiki/Transmission_Control_Protocol
+found page in dictionary
+mime: text/html
+encoding:  utf-8
+/wiki/Transmission_Control_Protocol
+10.0.0.85 - - [07/Nov/2014 08:33:26] "GET /wiki/Transmission_Control_Protocol HTTP/1.1" 200 -
+<socket._socketobject object at 0x1ff89f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/en.wikipedia.org/w/index.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914
+/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914
+trying hash: 31abf001c3291098b53432bf7a43f97f
+10.0.0.85 - - [07/Nov/2014 08:33:27] "GET /w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 HTTP/1.1" 200 -
+<socket._socketobject object at 0x1ff89f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/en.wikipedia.org/wiki/Transmission_Control_Protocol
+found page in dictionary
+mime: text/html
+encoding:  utf-8
+/wiki/Transmission_Control_Protocol
+10.0.0.85 - - [07/Nov/2014 08:34:34] "GET /wiki/Transmission_Control_Protocol HTTP/1.1" 200 -
+<socket._socketobject object at 0x1ff89f0>
+/home/mininet/gt-cs6250/assignment-6/Paper/en.wikipedia.org/w/index.php
+found page in dictionary
+mime: text/javascript
+encoding:  utf-8
+/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914
+/w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914
+trying hash: 31abf001c3291098b53432bf7a43f97f
+10.0.0.85 - - [07/Nov/2014 08:34:36] "GET /w/index.php?title=MediaWiki:Gadget-ReferenceTooltips.js&action=raw&ctype=text/javascript&508635914 HTTP/1.1" 200 -
+Killed
